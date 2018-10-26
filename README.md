@@ -1,5 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Here is the video of this site. ![](https://user-images.githubusercontent.com/43168607/47549360-fdceb580-d925-11e8-9dab-0c5a4ffa5706.gif)
+
 Below you will find some information on how to perform common tasks.<br>
 You can find the most recent version of this guide [here](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md).
 
