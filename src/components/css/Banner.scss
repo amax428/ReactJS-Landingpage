@@ -1,0 +1,92 @@
+@import './shared.scss';
+
+.banner-page {
+    color: #ffffff;
+    background: url('../../assets/banner.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: $space2 0px;
+
+    .logo-icon {
+        width: 350px;
+    }
+
+    @media (max-width: 768px) {
+        .logo-icon {
+            width: 250px;
+        }
+    }
+
+    .navbar {
+        padding-left: 0px;
+        padding: $space1 0px;
+        font-weight: 300;
+    }
+
+    .nav-item {
+        border-right: solid 2px #ffffff;
+        &:last-child {
+            border-right: none;
+        }
+        .nav-link {
+            color: #ffffff;
+            padding: 0px 20px;
+        }
+    }
+
+    @media (max-width: 992px) {
+        .nav-item {
+            border-right: none;
+        }
+    }
+
+    .banner-text {
+        text-align: left;
+        .banner-title {
+            padding-top: $space1;
+            font-weight: 500;
+        }
+        .banner-content {
+            font-weight: 300;
+        }   
+        .banner-signup-btn {
+            width: fit-content;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: $space2 0px;
+            padding: 10px $space2;
+            border: solid 3px;
+            border-radius: 7px;
+            font-weight: 700;
+            text-align: center;
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+    .scorllToBottom {
+        text-align: center;
+        margin: $space1 0px;
+        border-radius: 100%;
+        background-color: #ffffff;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+    .arrow-down-icon {
+        font-size: 30px;
+        color: #ff4a4f;
+    }
+    .scroll-area {
+        display: flex;
+        justify-content: center;
+    }
+
+    
+}

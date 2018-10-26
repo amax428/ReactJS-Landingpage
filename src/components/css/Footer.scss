@@ -1,0 +1,71 @@
+@import './shared.scss';
+
+.footer-page {
+    background-image: linear-gradient(to right, #5b81ec , #695bec);
+    color: #ffffff;
+    text-align: center;
+    padding: $space1 0px;
+    @media (min-width: 1400px) {
+        .container {
+            max-width: 1400px;
+        }
+    }
+    .text-regular {
+        justify-content: center;
+    }
+    .footer-logo {
+        height: 70px;
+        @media (max-width: 1200px) {
+            height: 50px;
+        }
+        @media (max-width: 768px) {
+            height: 30px;
+        }
+    }
+    .menu-item {
+        margin: $space2 0px;
+        padding: 0px 10px;
+        font-weight: 300;
+        text-decoration: none;
+        border-right: solid 1px #ffffff;
+        a {
+            color: #ffffff;
+            &:hover {
+                text-decoration: none;
+            }
+            
+        }
+        &:last-child {
+            border-right: none;
+        }
+    }
+    .upper-part {
+        border-bottom: solid 1px #ffffff;
+    }
+    .footer-part {
+        padding: $space2 10px;
+        font-weight: 400;
+    }
+    .scrollToTop {
+        width: 50px;
+        height: 50px;
+        background-color: #353854;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        right: 100px;
+        &:hover {
+            cursor: pointer;
+        }
+
+        @media (max-width: 768px) {
+            right: 50px;
+        }
+    }
+    .arrow-up-icon {
+        font-size: 30px;
+        color: #ffffff;
+    }
+}

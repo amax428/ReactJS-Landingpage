@@ -1,0 +1,38 @@
+@import './shared.scss';
+
+.content-page {
+    text-align: center;
+    .content-logo{
+        width: 300px;
+        margin: $space2 0px;
+    }
+
+    @media (max-width: 992px) {
+        .content-logo {
+            width: 200px;
+        }
+    }
+    @media (max-width: 768px) {
+        .content-logo {
+            width: 150px;
+        }
+    }
+
+
+    .content-item {
+        margin-top: $space1;
+        font-weight: 400;
+        .slide-icon {
+            margin-bottom: 15px;
+        }     
+        .text-thin {
+            font-weight: 300;
+        }
+        &:last-child {
+            margin-bottom: $space1;
+        }
+    }
+    .content-bridge {
+        width: 80%
+    }
+}

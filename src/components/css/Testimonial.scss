@@ -1,0 +1,33 @@
+@import './shared.scss';
+
+.testimonial-page {
+    padding: $space0 0px;
+    font-weight: 400; 
+    color: #353854;
+    @media (min-width: 1300px) {
+        .container {
+            max-width: 1300px;
+        }
+    }
+    .quotation-icon {
+        height: 35px;
+        @media (max-width: 768px) {
+            height: 20px;
+        }
+    }
+    .testimonial-title {
+        text-align: center;
+        color: #6664ec;
+        margin-bottom: $space1;
+    }
+    .writer {
+        font-family: Ubuntu;
+    }
+    .footer-part {
+        display: flex;
+        justify-content: space-between;
+    }
+    .testimonial-item {
+        padding: $space1;
+    }
+}
